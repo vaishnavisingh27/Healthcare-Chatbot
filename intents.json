@@ -1,0 +1,235 @@
+{
+    "intents": [
+      {
+        "tag": "greeting",
+        "patterns": ["hi", "hii", "hello", "hey"],
+        "responses": ["Hi, I am Falcon your health assistant \n how may i help you"]
+      },
+      {
+        "tag": "goodbye",
+        "patterns": ["bye", "goodbye", "see you later"],
+        "responses": ["Goodbye! Have a great day.", "See you later, alligator!"]
+      },
+      {
+        "tag": "thanks",
+        "patterns": ["thanks", "thankyou", "thanks for the help"],
+        "responses": ["You're most welcome!"]
+      },
+      {
+        "tag": "about",
+        "patterns": ["who are you", "what are you", "about","tell me about yourself","who r u"],
+        "responses": ["I am your medical assistant created by Team Squad"]
+      },
+      {
+        "tag": "about you",
+        "patterns": ["how are you", "how r u"],
+        "responses": ["I am fine, Thank you \n How are you, Sir"]
+      },
+      {
+        "tag": "user good",
+        "patterns": ["fine", "good","ok"],
+        "responses": ["It's good to know that your fine"]
+      },
+      {
+        "tag": "name",
+        "patterns": ["what's your name", "What is your name"],
+        "responses": ["My friends call me falcon"]
+      },
+      {
+        "tag": "used id",
+        "patterns": ["who i am"],
+        "responses": ["If you talk then definitely your human."]
+      },
+      {
+        "tag": "used id",
+        "patterns": ["who i am"],
+        "responses": ["If you talk then definitely your human."]
+      },
+      {
+        "tag": "bot exist",
+        "patterns": ["why you came to world"],
+        "responses": ["Thanks to Team Squad. further It's a secret"]
+      },
+      {
+        "tag": "love",
+        "patterns": ["is love"],
+        "responses": ["It is 7th sense that destroy all other senses"]
+      },
+      {
+        "tag": "bot reason",
+        "patterns": ["reason for you"],
+        "responses": ["I was created as a Minor project by Team Squad"]
+      },
+      {
+        "tag": "morning",
+        "patterns": ["good morning","morning"],
+        "responses": ["a warm good morning \n how are you"]
+      },
+      {
+        "tag": "afternoon",
+        "patterns": ["good afternoon","afternoon"],
+        "responses": ["a warm good afternoon \n how are you"]
+      },
+      {
+        "tag": "evening",
+        "patterns": ["good evening","evening"],
+        "responses": ["a warm good evening \n how are you"]
+      },
+      {
+        "tag": "gf/bf",
+        "patterns": ["will you be my gf","will you be my bf"],
+        "responses": ["I'm not sure about, may be you should give me some time"]
+      },
+      {
+        "tag": "love you",
+        "patterns": ["i love you"],
+        "responses": ["It's hard to understand"]
+      },
+      {
+        "tag": "fever",
+        "patterns": ["i have fever","fever"],
+        "responses": ["What is your body temperature?(Write in °F) \n any other symptoms ? "]
+      },
+      {
+        "tag": "Low-Grade Fever",
+        "patterns": ["99","99.0","99.1","99.2","99.3","99.4","99.5","99.6","99.7","99.8","99.9","100","100.0","100.1","100.2","100.3","100.4"],
+        "responses": ["You have Low-Grade Fever \n Take paracetamol tablets and take rest"]
+      },
+      {
+        "tag": "Low-Grade-Fever-sinusitis",
+        "patterns": ["99 Toothache","99.0 Toothache","99.1 Toothache","99.2 Toothache","99.3 Toothache","99.4 Toothache","99.5 Toothache","99.6 Toothache","99.7 Toothache","99.8 Toothache","99.9 Toothache","100 Toothache","100.0 Toothache","100.1 Toothache","100.2 Toothache","100.3 Toothache","100.4 Toothache"],
+        "responses": ["You have Low-Grade Fever and you have some symptoms of sinusitis diseases \n Treatment \n 1. Decongestants (oral or nasal sprays) to relieve nasal congestion. \n 2. Take paracetamol tablets and take rest \n 3. Pain relievers such as ibuprofen or acetaminophen for headache and facial pain."]
+      },
+      {
+        "tag": "Low-Grade-Fever-Urinary Tract Infection",
+        "patterns": ["99 vomiting","99.0 vomiting","99.1 vomiting","99.2 vomiting","99.3 vomiting","99.4 vomiting","99.5 vomiting","99.6 vomiting","99.7 vomiting","99.8 vomiting","99.9 vomiting","100 vomiting","100.0 vomiting","100.1 vomiting","100.2 vomiting","100.3 vomiting","100.4 vomiting"],
+        "responses": ["You have Low-Grade Fever and you have some symptoms of Urinary Tract Infection \n Treatment \n1. Antibiotics prescribed by a healthcare provider to treat the bacterial infection. \n 2. Pain relievers such as ibuprofen or acetaminophen to alleviate discomfort and fever. \n 3. Increased fluid intake to help flush out bacteria from the urinary tract."]
+      },
+      {
+        "tag": "Moderate Fever",
+        "patterns": ["100.5","100.6","100.7","100.8","100.9","101","101.0","101.1","101.2","101.3","101.4","101.5","101.6","101.7","101.8","101.9","102","102.0","102.1","102.2"],
+        "responses": ["You have moderate Fever \n Take paracetamol tablets and take rest"]
+      },
+      {
+        "tag": "Moderate Fever Flu",
+        "patterns": ["100.5 headache", "100.6 headache", "100.7 headache", "100.8 headache", "100.9 headache", "101 headache", "101.0 headache", "101.1 headache", "101.2 headache", "101.3 headache", "101.4 headache", "101.5 headache", "101.6 headache", "101.7 headache", "101.8 headache", "101.9 headache", "102 headache", "102.0 headache", "102.1 headache", "102.2 headache, 100.5 dry cough", "100.6 dry cough", "100.7 dry cough", "100.8 dry cough", "100.9 dry cough", "101 dry cough", "101.0 dry cough", "101.1 dry cough", "101.2 dry cough", "101.3 dry cough", "101.4 dry cough", "101.5 dry cough", "101.6 dry cough", "101.7 dry cough", "101.8 dry cough", "101.9 dry cough", "102 dry cough", "102.0 dry cough", "102.1 dry cough", "102.2 dry cough, 100.5 chest discomfort", "100.6 chest discomfort", "100.7 chest discomfort", "100.8 chest discomfort", "100.9 chest discomfort", "101 chest discomfort", "101.0 chest discomfort", "101.1 chest discomfort", "101.2 chest discomfort", "101.3 chest discomfort", "101.4 chest discomfort", "101.5 chest discomfort", "101.6 chest discomfort", "101.7 chest discomfort", "101.8 chest discomfort", "101.9 chest discomfort", "102 chest discomfort", "102.0 chest discomfort", "102.1 chest discomfort", "102.2 chest discomfort", "100.5 body pain", "100.6 body pain", "100.7 body pain", "100.8 body pain", "100.9 body pain", "101 body pain", "101.0 body pain", "101.1 body pain", "101.2 body pain", "101.3 body pain", "101.4 body pain", "101.5 body pain", "101.6 body pain", "101.7 body pain", "101.8 body pain", "101.9 body pain", "102 body pain", "102.0 body pain", "102.1 body pain", "102.2 body pain"],
+        "responses": ["You have moderate fever and you have some symptoms of flu \n Treatment \n 1. Rest: Allow your body to recover by getting plenty of rest. \n 2. Hydration: Drink plenty of fluids such as water, herbal tea, or clear broth to stay hydrated. \n 3. Fever reducers: Over-the-counter medications like acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help reduce fever and relieve body aches. \n 4. Antiviral medications: Prescription antiviral drugs may be prescribed by your healthcare provider if diagnosed early in the course of the illness.\n \n or if your fever continues for more than 2 days \n immediately consult with your nearest doctor \n these are the symptoms of malaria, dengue, or might be covid-19"]
+      },    
+      {
+        "tag": "High Fever",
+        "patterns": ["102.3","102.4","102.5","102.6","102.7","102.8","102.9","103","103.0","103.1","103.2","103.3","103.4","103.5","103.6","103.7","103.8","103.9","104","104.0"],
+        "responses": ["You  have High Fever \n immediately consult to your nearest doctor"]
+      },
+      {
+        "tag": "Very High Fever",
+        "patterns": ["104.1","104.2","104.3","104.4","104.5","104.6","104.7","104.8","104.9","105","105.1"],
+        "responses": ["You  have High Fever \n immediately consult to your nearest doctor"]
+      },
+      {
+        "tag": "cold",
+        "patterns": ["i have cold","cold"],
+        "responses": ["symptoms ? if not then \n 1. you can take cetirizine  \n 2. you should avoid cold water and food \n 3. if these cold stayed for long time you must consult with doctor"]
+      },
+      {
+        "tag": "cold_symp",
+        "patterns": ["sneezing"," coughing","sore throat","body aches"],
+        "responses": ["1. Acetaminophen (Tylenol) or ibuprofen (Advil, Motrin) can help reduce fever and relieve pain and discomfort. \n 2. Pseudoephedrine or phenylephrine can help reduce nasal congestion by constricting blood vessels in the nasal passages. \n 3. These can help relieve sneezing, runny nose, and itching but may cause drowsiness. \n 4.Dextromethorphan can help suppress a cough. \n 4. if these cold stayed for long time you must consult with doctor"]
+      },
+      {
+        "tag": "cough",
+        "patterns": ["i have cough","cough"],
+        "responses": ["symptoms ? if not then \n 1. you can take cough syrup \n 2. you should avoid cold water and food \n 3. if these cold stayed for long time you must consult with doctor"]
+      },
+      {
+        "tag": "cough_dry",
+        "patterns": ["loss of voice"],
+        "responses": ["1. you have dry cough \n 2. These medications help reduce the urge to cough. Examples include dextromethorphan and codeine (prescription-only in some cases). They are typically used for dry, non-productive coughs. \n 3. if these cold stayed for long time you must consult with doctor"]
+      },
+      {
+        "tag": "cough_wet",
+        "patterns": ["Chest congestion","Chest tightness"],
+        "responses": ["1. you have wet cough \n 2. If the cough is caused by a bacterial infection, such as pneumonia or bacterial bronchitis, antibiotics may be prescribed. However, antibiotics are not effective against viral infections like the common cold. \n 3. if these cold stayed for long time you must consult with doctor"]
+      },
+      {
+        "tag": "common-cold",
+        "patterns": ["i have common cold","common cold"],
+        "responses": ["1. Take over-the-counter cold medications like ibuprofen or acetaminophen for fever and body aches. \n2. Drink plenty of fluids to stay hydrated. \n3. Rest and avoid strenuous activities. \n4. Use saline nasal sprays or drops to relieve nasal congestion. \n5. Gargle with warm salt water to soothe a sore throat \n 3. if these cold stayed for long time you must consult with doctor"]
+      },
+      {
+        "tag": "headache",
+        "patterns": ["i have headache","headache"],
+        "responses": ["symptoms ? if not then 1. Take over-the-counter pain relievers like ibuprofen or aspirin. \n2. Apply a cold compress to your forehead or neck. \n3. Get some rest in a quiet, dark room. \n4. Stay hydrated by drinking plenty of water. \n5. Practice relaxation techniques such as deep breathing or meditation"]
+      },
+      {
+        "tag": "stomachache",
+        "patterns": ["i have stomachache","stomachache"],
+        "responses": ["1. Take an over-the-counter antacid for indigestion or heartburn. \n2. Avoid spicy, greasy, or heavy foods that may aggravate your stomach. \n3. Drink peppermint tea or ginger ale to help soothe your stomach. \n4. Apply a warm compress to your abdomen to relieve cramps. \n5. Rest and avoid strenuous activities until your stomach feels better"]
+      },
+      {
+        "tag": "sore-throat",
+        "patterns": ["i have sore throat","sore throat"],
+        "responses": ["1. Gargle with warm salt water several times a day to reduce swelling and relieve discomfort. \n2. Drink warm liquids like tea with honey or broth to soothe your throat. \n3. Use over-the-counter throat lozenges or sprays for temporary relief. \n4. Avoid smoking and exposure to secondhand smoke, as it can irritate your throat further. \n5. Rest your voice and avoid yelling or talking loudly"]
+      },
+      {
+        "tag": "allergies",
+        "patterns": ["i have allergy","allergy","allergy reaction"],
+        "responses": ["1. Take over-the-counter antihistamines like loratadine or cetirizine to relieve symptoms such as sneezing and itching. \n2. Use nasal corticosteroid sprays to reduce nasal congestion and inflammation. \n3. Avoid known allergens and triggers whenever possible. \n4. Keep windows closed during high pollen seasons to prevent outdoor allergens from entering your home. \n5. Wash your hands frequently and shower after being outdoors to remove pollen and other allergens from your skin and hair"]
+      },
+      {
+        "tag": "acne",
+        "patterns": ["i have acne","acne","acne breakout"],
+        "responses": ["1. Wash your face twice daily with a gentle cleanser to remove excess oil and dirt. \n2. Use over-the-counter acne treatments containing benzoyl peroxide or salicylic acid to unclog pores and reduce inflammation. \n3. Avoid touching your face or picking at acne lesions to prevent further irritation and scarring. \n4. Keep your hair clean and away from your face to prevent oil and bacteria buildup. \n5. Follow a balanced diet and drink plenty of water to help maintain clear skin"]
+      },
+      {
+        "tag": "cuts_and_scrapes",
+        "patterns": ["i have a cut","scraped my knees"],
+        "responses": ["1. Clean the wound with soap and water to remove dirt and debris. \n2. Apply an antiseptic ointment like Neosporin to prevent infection. \n3. Cover the wound with a sterile bandage or adhesive strip to protect it from further injury. \n4. Change the bandage daily and keep the wound clean and dry. \n5. Watch for signs of infection such as increased redness, swelling, or pus, and seek medical attention if necessary"]
+      },
+      {
+        "tag": "burns",
+        "patterns": ["i got burned","burn injury"],
+        "responses": ["1. Run cool water over the burned area for at least 10-15 minutes to reduce pain and swelling. \n2. Apply aloe vera gel or an over-the-counter burn cream to soothe the skin and promote healing. \n3. Cover the burn with a sterile gauze bandage or nonstick dressing to protect it from infection. \n4. Take over-the-counter pain relievers like ibuprofen or acetaminophen to alleviate discomfort. \n5. Seek medical attention for severe burns, large blisters, or burns on sensitive areas like the face, hands, or genitals"]
+      },
+      {
+        "tag": "diarrhea",
+        "patterns": ["i have diarrhea","diarrhea"],
+        "responses": ["1. Drink plenty of fluids to prevent dehydration, such as water, clear broths, or oral rehydration solutions. \n2. Avoid dairy, caffeine, and fatty or spicy foods that may worsen diarrhea. \n3. Take over-the-counter medications like loperamide (Imodium) to help reduce frequency and severity of diarrhea. \n4. Eat bland, easily digestible foods like rice, bananas, and toast until symptoms improve. \n5. Wash your hands frequently to prevent spreading the infection to others"]
+      },
+      {
+        "tag": "asthma",
+        "patterns": ["i have asthma","asthma attack"],
+        "responses": ["1. Use a rescue inhaler (such as albuterol) as directed to relieve sudden asthma symptoms like wheezing and shortness of breath. \n2. Take controller medications as prescribed by your doctor to prevent asthma flare-ups and reduce inflammation in the airways. \n3. Avoid triggers such as tobacco smoke, dust mites, pet dander, and outdoor air pollution. \n4. Monitor your lung function regularly with a peak flow meter or spirometer. \n5. Have an asthma action plan in place and know when to seek emergency medical care if symptoms worsen"]
+      },
+      {
+        "tag": "hypertension",
+        "patterns": ["i have hypertension","hypertension","i have high blood pressure"],
+        "responses": ["1. Maintain a healthy weight through regular exercise and a balanced diet low in sodium and high in fruits, vegetables, and whole grains. \n2. Limit alcohol intake and avoid tobacco products to reduce your risk of developing hypertension. \n3. Take prescribed medications such as ACE inhibitors, beta-blockers, or diuretics to help lower blood pressure. \n4. Monitor your blood pressure regularly at home and follow up with your doctor as recommended. \n5. Practice stress-reducing techniques such as deep breathing, meditation, or yoga to help manage hypertension"]
+      },
+      {
+        "tag": "diabetes",
+        "patterns": ["i have diabetes","diabetes"],
+        "responses": ["1. Monitor blood sugar levels regularly using a glucometer and follow a personalized meal plan created by a registered dietitian. \n2. Take prescribed medications such as insulin or oral hypoglycemic agents to manage blood sugar levels. \n3. Exercise regularly to improve insulin sensitivity and lower blood sugar levels. \n4. Eat a balanced diet rich in fiber, whole grains, lean protein, and healthy fats to help control blood sugar. \n5. Schedule regular check-ups with your doctor to monitor diabetes-related complications and adjust treatment as needed"]
+      },
+      {
+        "tag": "sprained_ankle",
+        "patterns": ["i sprained my ankle","ankle sprain"],
+        "responses": ["1. Rest the injured ankle by avoiding weight-bearing activities and elevating it above heart level to reduce swelling. \n2. Apply ice wrapped in a cloth for 15-20 minutes every few hours to reduce pain and inflammation. \n3. Use compression bandages or ankle braces to provide support and stability to the injured ankle. \n4. Take over-the-counter pain relievers like ibuprofen or acetaminophen to alleviate discomfort. \n5. Follow a rehabilitation program of gentle stretching and strengthening exercises to restore flexibility and mobility in the ankle"]
+      },
+      {
+        "tag": "strain_or_sprain",
+        "patterns": ["i have a muscle strain","sprained muscles"],
+        "responses": ["1. Rest the affected muscle by avoiding strenuous activities that may worsen the strain or sprain. \n2. Apply ice wrapped in a cloth for 15-20 minutes every few hours to reduce pain and swelling. \n3. Use compression bandages or wraps to provide support and stability to the injured muscle. \n4. Elevate the injured limb above heart level to reduce swelling and promote healing. \n5. Take over-the-counter pain relievers like ibuprofen or acetaminophen to alleviate discomfort"]
+      },
+      {
+        "tag": "concussion",
+        "patterns": ["i have a concussion","head injury"],
+        "responses": ["1. Rest and avoid physical or mental exertion to allow the brain to heal properly. \n2. Apply ice packs wrapped in a cloth to the head to reduce swelling and pain. \n3. Avoid activities that require concentration or focus, such as reading, using screens, or driving. \n4. Monitor for signs of worsening symptoms such as headache, dizziness, nausea, or confusion, and seek medical attention if necessary. \n5. Follow your doctor's recommendations for gradual return to normal activities once symptoms improve"]
+      },
+      {
+        "tag": "fracture",
+        "patterns": ["i broke my bone","fracture","fractured bone","broken bone","bone fracture"],
+        "responses": ["1. Immobilize the injured limb by splinting or using a sling to prevent further damage and reduce pain. \n2. Apply ice wrapped in a cloth to the injured area for 15-20 minutes every few hours to reduce swelling and pain. \n3. Elevate the injured limb above heart level to reduce swelling and promote healing. \n4. Take prescribed pain medications as directed by your doctor to manage discomfort. \n5. Follow your doctor's recommendations for immobilization, physical therapy, and rehabilitation to facilitate proper healing of the fracture"]
+      }
+    ]
+  }
+  

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <style>
+        #chat-container {
+            width: 400px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid #ccc;
+            border-radius: 10px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            float: right; /* Align to the right side */
+            margin-right: 20px; /* Add some margin to the right */
+        }
+        #chat-box {
+            min-height: 200px;
+            max-height: 400px;
+            overflow-y: auto;
+            margin-bottom: 10px;
+            border: 1px solid #ddd;
+            padding: 10px;
+            border-radius: 5px;
+            background-color: #f9f9f9;
+            box-shadow: 0 0 5px rgba(0, 0, 0, 0.1); /* Add a box shadow */
+        }
+        .user-message img, .bot-message img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+        }
+        .user-message {
+            margin-bottom: 10px;
+            text-align: right;
+        }
+        .bot-message {
+            margin-bottom: 10px;
+            text-align: left;
+        }
+    </style>
+</head>
+<body>
+    <div id="chat-container">
+        <div id="chat-box"></div>
+        <div class="user-message">
+            <img src="user_image.png" alt="User Image">
+        </div>
+        <div class="bot-message">
+            <img src="C:\Users\kumar\Desktop\finalproject\bot_image.jpg" alt="Bot Image">
+        </div>
+    </div>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function() {
+            $('#send-button').click(function() {
+                sendMessage();
+            });
+
+            $('#user-input').keypress(function(event) {
+                if (event.which == 13) {
+                    sendMessage();
+                }
+            });
+        });
+
+        function sendMessage() {
+            var message = $('#user-input').val();
+            if (message.trim() == '') return;
+
+            $('#chat-box').append('<p>You: ' + message + '</p>');
+            $('#user-input').val('');
+
+            $.ajax({
+                type: 'POST',
+                url: '/get_response',
+                data: {message: message},
+                success: function(response) {
+                    $('#chat-box').append('<p>Bot: ' + response.response + '</p>');
+                    $('#chat-box').scrollTop($('#chat-box')[0].scrollHeight);
+                },
+                error: function(xhr, status, error) {
+                    console.error(xhr.responseText);
+                }
+            });
+        }
+    </script>
+</body>
+</html>

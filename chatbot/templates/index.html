@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Chatbot</title>
+    <link rel="stylesheet" href="static/css/styles.css">
+</head>
+<body>
+    <div>
+        <div class="chat-icon" onclick="toggleChat()"><img src="/images/bot_gif.gif" alt="" id="chat_icon"></div>
+    <div id="chat-container">
+        <button class="close-button" onclick="toggleChat()">✖</button>
+        <div id="image"><img src="/images/bot_gif.gif" alt="logo" id="logo_image"></div>
+        <div id="chat-box"></div>
+        <div id="input">
+            <input type="text" id="user-input" placeholder="Type your message...">
+            <button id="send-button" onclick="sendMessage()">Send</button>
+            <img src="/images/mic.jpg" alt="microphone" id="mic_icon" onclick="startListening()">
+        </div>
+    </div>
+    </div>
+
+    <body>
+        <div class="navcontainer">
+            <div class="page_logo"><img src="/images/bot_gif.gif" alt="page logo" id="page_img"></div>
+            <div class="header">HEALTH MATE “Your Personal wellness guide”</div>
+            </div>
+        </div>
+    </body>
+
+    <main>
+        <div class="about">
+            <div class="about_image"><img src="/images/bot_gif.gif" alt="about_img" id="about_img"></div>
+            <div class="about_text">
+                <h1 id="about_head">About us</h1>
+                <p id="about_para">Welcome to Health Mate, your comprehensive health companion powered by cutting-edge technology and a dedicated team of healthcare professionals. We're here to simplify your healthcare journey by providing personalized support, reliable information, and innovative tools whenever you need them. Our AI-driven chatbot is designed to empower you with knowledge, guidance, and assistance tailored to your unique needs and preferences. Your privacy and security are our top priorities, ensuring that all interactions with HealthCzrae are confidential and your data is handled with the utmost care. Join our community today and take control of your health journey with HealthCzrae by your side.</p>
+            </div>  
+        </div>
+
+        <div id="portfolio">
+            <div class="container">
+                <h1 class="sub-title">My Work</h1>
+                <div class="work-list">
+                    <div class="work">
+                        <img src="images/hour.jpg">
+                        <div class="layer">
+                            <h3>24 x 7 AVAILABILITY</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsum vero incidunt fuga temporibus dicta beatae magni voluptates dolore iure?</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/medicin.jpg">
+                        <div class="layer">
+                            <h3>SHOW RELIABLE MEDICINE AND INFORMATION</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsum vero incidunt fuga temporibus dicta beatae magni voluptates dolore iure?</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/time.jpg">
+                        <div class="layer">
+                            <h3>TIME SAVING</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsum vero incidunt fuga temporibus dicta beatae magni voluptates dolore iure?</p>
+                        </div>
+                    </div>
+                    <div class="work">
+                        <img src="images/assist.jpg">
+                        <div class="layer">
+                            <h3>CAN ASSIST YOU THROUGH VOICE AND CHAT</h3>
+                            <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Enim ipsum vero incidunt fuga temporibus dicta beatae magni voluptates dolore iure?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="static/js/script.js"></script>
+</body>
+</html>

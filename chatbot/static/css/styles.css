@@ -1,0 +1,268 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+#chat-container {
+    background: #108dc7c0;
+    width: 500px;
+    height: 550px; /* Fixed height */
+    overflow: hidden; /* Hide overflowing content */
+    margin: auto;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    display: none;
+    z-index: 1000;
+}
+#image {
+    display: flex;
+    justify-content: center;
+    margin: 5px;
+}
+#logo_image {
+    height: 100px;
+    width: 100px;
+}        
+#chat-box {
+    height: calc(100% - 180px); /* Adjusted height */
+    overflow-y: auto;
+    margin-bottom: 10px;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+}
+::placeholder{
+    color: white;
+}
+.message-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+.user-message-container {
+    justify-content: flex-start;
+}
+.bot-message-container {
+    justify-content: flex-end;
+}
+.user-message-container .message {
+    background-color: white;
+    color: #007bffc0;
+    border-radius: 10px;
+    padding: 10px;
+    margin-right: 10px;
+    max-width: 70%;
+}
+.bot-message-container .message {
+    background-color: #007bff;
+    color: black;
+    border-radius: 10px;
+    padding: 10px;
+    margin-left: 10px;
+    max-width: 70%;
+    font-size: 17px;
+}
+.user-image {
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+.bot-image {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    margin-left: 10px;
+}
+#input {
+    display: flex;
+    flex-direction: row;
+}
+
+#user-input {
+    background: #108dc7c0;
+    font-size: 18px;
+    width: calc(100% - 80px);
+    padding: 15px;
+    margin: 5px;
+    border-radius: 10px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+#send-button {
+    font-size: 20px;
+    height: 50px;
+    width: 120px;
+    margin: 10px;
+    font-weight: 600;
+    padding: 5px 10px;
+    border: none;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    transition: background-color 0.5s ease, transform 0.5s ease;
+}
+#send-button:hover {
+    background-color: #0056b3;
+    transform: scale(1.1);
+}
+.chat-icon {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 999;
+    cursor: pointer;
+}
+#mic_icon{
+    border-radius: 10px;
+    margin-top: 13px;
+    height: 45px;
+    width: 45px;
+    transition: transform 0.5s ease;
+}
+
+#mic_icon:hover {
+    transform: scale(1.1);
+}
+
+#chat_icon{
+    height: 120px;
+    width: 120px;
+}
+.close-button {
+    background: #108dc7c0;
+    position: absolute;
+    height: 25px;
+    width: 25px;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+}
+
+.navcontainer{
+    margin: 3px;
+    width: 100%;
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    padding: 15px;
+    background: #108dc7;
+}
+#page_img{
+    height: 60px;
+    width: 50px;
+    margin-left: 80px;
+}
+
+.header{
+    margin-left: 130px;
+    font-size: 35px;
+    color: white;
+}
+
+.about{
+    display: flex;
+    flex-direction: row;
+}
+
+.about_image{
+    height: 300px;
+    width: 300px;
+    margin: 15px 50px;
+}
+
+#about_img{
+    height: 250px;
+    width: 250px;
+}
+
+.about_text{
+    margin: 65px 15px;
+}
+
+#about_head{
+    font-size: 35px;
+    margin: 10px 0;
+    color: #108dc7;
+}
+
+#about_para{
+    font-size: 20px;
+    margin-right: 10px;
+    text-align: justify;
+}
+
+.work-list{
+    display: grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 35px;
+    margin: 30px 15px;
+}
+
+.work{
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+}
+
+.sub-title{
+    color: #108dc7;
+    font-size: 50px;
+    margin: 0 40%;
+}
+
+.work img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 10px;
+    display: block;
+    transition: transform 0.5s;
+}
+
+.layer{
+    width: 100%;
+    height: 0;
+    background: linear-gradient(#007bff84, #108dc7);
+    border-radius: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding: 0 30px;
+    text-align: center;
+    font-size: 14px;
+    transition: height 0.5s;
+}
+
+.layer h3{
+    color: white;
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.layer p{
+    color: white;
+}
+.work:hover img{
+    transform: scale(1.1);
+}
+
+.work:hover .layer{
+    height: 100%;
+}
+

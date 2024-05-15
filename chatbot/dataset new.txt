@@ -1,0 +1,80 @@
+{
+"tag": "common_cold",
+"patterns": ["i have a cold", "common cold"],
+"responses": ["1. Take over-the-counter cold medications like ibuprofen or acetaminophen for fever and body aches. \n2. Drink plenty of fluids to stay hydrated. \n3. Rest and avoid strenuous activities. \n4. Use saline nasal sprays or drops to relieve nasal congestion. \n5. Gargle with warm salt water to soothe a sore throat."]
+},
+{
+"tag": "headache",
+"patterns": ["i have a headache", "headache"],
+"responses": ["1. Take over-the-counter pain relievers like ibuprofen or aspirin. \n2. Apply a cold compress to your forehead or neck. \n3. Get some rest in a quiet, dark room. \n4. Stay hydrated by drinking plenty of water. \n5. Practice relaxation techniques such as deep breathing or meditation."]
+},
+{
+"tag": "stomachache",
+"patterns": ["i have a stomachache", "stomachache"],
+"responses": ["1. Take an over-the-counter antacid for indigestion or heartburn. \n2. Avoid spicy, greasy, or heavy foods that may aggravate your stomach. \n3. Drink peppermint tea or ginger ale to help soothe your stomach. \n4. Apply a warm compress to your abdomen to relieve cramps. \n5. Rest and avoid strenuous activities until your stomach feels better."]
+},
+{
+"tag": "sore_throat",
+"patterns": ["i have a sore throat", "sore throat"],
+"responses": ["1. Gargle with warm salt water several times a day to reduce swelling and relieve discomfort. \n2. Drink warm liquids like tea with honey or broth to soothe your throat. \n3. Use over-the-counter throat lozenges or sprays for temporary relief. \n4. Avoid smoking and exposure to secondhand smoke, as it can irritate your throat further. \n5. Rest your voice and avoid yelling or talking loudly."]
+},
+{
+"tag": "allergies",
+"patterns": ["i have allergies", "allergic reaction"],
+"responses": ["1. Take over-the-counter antihistamines like loratadine or cetirizine to relieve symptoms such as sneezing and itching. \n2. Use nasal corticosteroid sprays to reduce nasal congestion and inflammation. \n3. Avoid known allergens and triggers whenever possible. \n4. Keep windows closed during high pollen seasons to prevent outdoor allergens from entering your home. \n5. Wash your hands frequently and shower after being outdoors to remove pollen and other allergens from your skin and hair."]
+  },
+  {
+    "tag": "acne",
+    "patterns": ["i have acne", "acne breakout"],
+    "responses": ["1. Wash your face twice daily with a gentle cleanser to remove excess oil and dirt. \n2. Use over-the-counter acne treatments containing benzoyl peroxide or salicylic acid to unclog pores and reduce inflammation. \n3. Avoid touching your face or picking at acne lesions to prevent further irritation and scarring. \n4. Keep your hair clean and away from your face to prevent oil and bacteria buildup. \n5. Follow a balanced diet and drink plenty of water to help maintain clear skin."]
+  },
+  {
+    "tag": "cuts_and_scrapes",
+    "patterns": ["i have a cut", "scraped my knee"],
+    "responses": ["1. Clean the wound with soap and water to remove dirt and debris. \n2. Apply an antiseptic ointment like Neosporin to prevent infection. \n3. Cover the wound with a sterile bandage or adhesive strip to protect it from further injury. \n4. Change the bandage daily and keep the wound clean and dry. \n5. Watch for signs of infection such as increased redness, swelling, or pus, and seek medical attention if necessary."]
+  },
+  {
+    "tag": "burns",
+    "patterns": ["i got burned", "burn injury"],
+    "responses": ["1. Run cool water over the burned area for at least 10-15 minutes to reduce pain and swelling. \n2. Apply aloe vera gel or an over-the-counter burn cream to soothe the skin and promote healing. \n3. Cover the burn with a sterile gauze bandage or nonstick dressing to protect it from infection. \n4. Take over-the-counter pain relievers like ibuprofen or acetaminophen to alleviate discomfort. \n5. Seek medical attention for severe burns, large blisters, or burns on sensitive areas like the face, hands, or genitals."]
+  },
+{
+    "tag": "diarrhea",
+    "patterns": ["i have diarrhea", "diarrhea"],
+    "responses": ["1. Drink plenty of fluids to prevent dehydration, such as water, clear broths, or oral rehydration solutions. \n2. Avoid dairy, caffeine, and fatty or spicy foods that may worsen diarrhea. \n3. Take over-the-counter medications like loperamide (Imodium) to help reduce frequency and severity of diarrhea. \n4. Eat bland, easily digestible foods like rice, bananas, and toast until symptoms improve. \n5. Wash your hands frequently to prevent spreading the infection to others."]
+  },
+  {
+    "tag": "asthma",
+    "patterns": ["i have asthma", "asthma attack"],
+    "responses": ["1. Use a rescue inhaler (such as albuterol) as directed to relieve sudden asthma symptoms like wheezing and shortness of breath. \n2. Take controller medications as prescribed by your doctor to prevent asthma flare-ups and reduce inflammation in the airways. \n3. Avoid triggers such as tobacco smoke, dust mites, pet dander, and outdoor air pollution. \n4. Monitor your lung function regularly with a peak flow meter or spirometer. \n5. Have an asthma action plan in place and know when to seek emergency medical care if symptoms worsen."]
+  },
+  {
+    "tag": "hypertension",
+    "patterns": ["i have high blood pressure", "hypertension"],
+    "responses": ["1. Maintain a healthy weight through regular exercise and a balanced diet low in sodium and high in fruits, vegetables, and whole grains. \n2. Limit alcohol intake and avoid tobacco products to reduce your risk of developing hypertension. \n3. Take prescribed medications such as ACE inhibitors, beta-blockers, or diuretics to help lower blood pressure. \n4. Monitor your blood pressure regularly at home and follow up with your doctor as recommended. \n5. Practice stress-reducing techniques such as deep breathing, meditation, or yoga to help manage hypertension."]
+  },
+  {
+    "tag": "diabetes",
+    "patterns": ["i have diabetes", "diabetic"],
+    "responses": ["1. Monitor blood sugar levels regularly using a glucometer and follow a personalized meal plan created by a registered dietitian. \n2. Take prescribed medications such as insulin or oral hypoglycemic agents to manage blood sugar levels. \n3. Exercise regularly to improve insulin sensitivity and lower blood sugar levels. \n4. Eat a balanced diet rich in fiber, whole grains, lean protein, and healthy fats to help control blood sugar. \n5. Schedule regular check-ups with your doctor to monitor diabetes-related complications and adjust treatment as needed."]
+  }
+{
+    "tag": "sprained_ankle",
+    "patterns": ["i sprained my ankle", "ankle sprain"],
+    "responses": ["1. Rest the injured ankle by avoiding weight-bearing activities and elevating it above heart level to reduce swelling. \n2. Apply ice wrapped in a cloth for 15-20 minutes every few hours to reduce pain and inflammation. \n3. Use compression bandages or ankle braces to provide support and stability to the injured ankle. \n4. Take over-the-counter pain relievers like ibuprofen or acetaminophen to alleviate discomfort. \n5. Follow a rehabilitation program of gentle stretching and strengthening exercises to restore flexibility and mobility in the ankle."]
+  },
+  {
+    "tag": "strain_or_sprain",
+    "patterns": ["i have a muscle strain", "sprained muscle"],
+    "responses": ["1. Rest the affected muscle by avoiding strenuous activities that may worsen the strain or sprain. \n2. Apply ice wrapped in a cloth for 15-20 minutes every few hours to reduce pain and swelling. \n3. Use compression bandages or wraps to provide support and stability to the injured muscle. \n4. Elevate the injured limb above heart level to reduce swelling and promote healing. \n5. Take over-the-counter pain relievers like ibuprofen or acetaminophen to alleviate discomfort."]
+  },
+  {
+    "tag": "concussion",
+    "patterns": ["i have a concussion", "head injury"],
+    "responses": ["1. Rest and avoid physical or mental exertion to allow the brain to heal properly. \n2. Apply ice packs wrapped in a cloth to the head to reduce swelling and pain. \n3. Avoid activities that require concentration or focus, such as reading, using screens, or driving. \n4. Monitor for signs of worsening symptoms such as headache, dizziness, nausea, or confusion, and seek medical attention if necessary. \n5. Follow your doctor's recommendations for gradual return to normal activities once symptoms improve."]
+  },
+  {
+    "tag": "fracture",
+    "patterns": ["i broke my bone", "fractured bone"],
+    "responses": ["1. Immobilize the injured limb by splinting or using a sling to prevent further damage and reduce pain. \n2. Apply ice wrapped in a cloth to the injured area for 15-20 minutes every few hours to reduce swelling and pain. \n3. Elevate the injured limb above heart level to reduce swelling and promote healing. \n4. Take prescribed pain medications as directed by your doctor to manage discomfort. \n5. Follow your doctor's recommendations for immobilization, physical therapy, and rehabilitation to facilitate proper healing of the fracture."]
+  }
